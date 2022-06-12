@@ -1,0 +1,27 @@
+
+
+.text-Skill{
+    text-shadow: 0 0 40px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0);
+    color: red;
+    position: relative;
+    top: 60px;
+    position: relative;
+    top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 4s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+    cursor: context-menu;
+}
+  
+@keyframes fadeIn {
+    0% { opacity: 0; color: #000000; }
+    25%{text-shadow: 0 0 20px #000000, 0 0 20px #450e0e;}
+    50%{ color: #6d1515; text-shadow: 0 0 20px #a82424, 0 0 20px #430404;}
+    100% { color: #ff0000; opacity: 1;  text-shadow: 0 0 40px #ff0000, 0 0 20px #ff0000;}
+}
+  
+

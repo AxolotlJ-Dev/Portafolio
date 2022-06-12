@@ -1,0 +1,100 @@
+
+
+
+body.dark {
+	background: #292C35;
+  color: white;
+  
+}
+
+body.dark .bor-black{
+  border: #fff 1px solid;
+}
+
+
+body.dark .main-header {
+   	height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292C35;
+    padding: 0 1rem;
+}
+
+body.dark .text-darkes{
+  color: white;
+}
+
+body.dark a{
+  color: #fff;
+  text-decoration: none;
+}
+
+body.dark .main-header a{
+   color: white;
+}
+
+body.dark .nav-links {
+  background: #292C35;
+  color: white;
+}
+
+
+body.dark .link-item::after{
+  background-color: white;
+  transition: 0.3s ease all;
+}
+
+body.dark .btn-dark{
+  background-color: #fff;
+  color: #000;
+}
+
+.text-darkes{
+  color: #111;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px;
+  bottom: 15px;
+  margin-top:30px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+.bor-black{
+	border: #000 1px solid;
+}
+
+
+
+

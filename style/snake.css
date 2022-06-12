@@ -1,0 +1,23 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.game-box {
+    text-align:center;   
+}
+.game-info {
+    text-align:center; 
+    font-family:arial;
+    line-height:24px;
+}
+
+.btnSnake{
+    border:solid black 2px;
+    background-color: rgb(92, 188, 248);
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+
+}

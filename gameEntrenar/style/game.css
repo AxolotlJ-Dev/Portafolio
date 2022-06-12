@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.fondoGame{
+    background-color: #000;
+    color: #ffff;
+}
+
+
+.tiempo{
+    font-size: 33px;
+}
+
+.objetivo{
+    transition: all 0.7s;
+    background: #000;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    border: #ffffff solid 2px;
+    box-shadow: 0 0 50px #ff0000;
+    
+}
+
+
+hr{
+    background-color: #ffff;
+    opacity: 100%;
+}
+
+.game{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    z-index: 1;
+
+}
+
+.login{
+    display: none;
+    position: relative;
+    top: 100px;
+    z-index: 2;
+    border: 6.50px solid #868686;
+    height: 500px;
+    text-align: center;
+    background: white;
+    opacity: 80%;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.78); 
+    -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.78); 
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.78);
+}
+
+
+.loginDos{
+    top: 150px;
+    position: relative;
+    text-align: center;
+    background: linear-gradient(to right, #a3a3a3, #ffffff, #a3a2a2); 
+    height: 400px;
+    color: black;
+    border: 7px solid #494949;
+    box-shadow: 10px 10px 0px 0px #3e3d3dc7; 
+    -moz-box-shadow: 10px 10px 0px 0px #434242c7; 
+    -webkit-box-shadow: 10px 10px 0px 0px #656363c7;
+    
+}
+
+.fontFaWhite{
+    position: relative;
+    top: 5px;
+    color: #ff0000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fontFa{
+    position: relative;
+    top: 5px;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fontFa:hover{
+    color: #ff0000;
+}
+
+.txtL{
+    color: #000000;
+    
+}
+
+.txtL:hover{
+    color: #ff0000;
+}
+
+.login .butM{
+    position: relative;
+    top: 45%;
+}
+
+.up{
+    z-index: 3;
+}
+
+.text-title{
+    color: #ff0000;
+    font-size: 40px;
+    cursor: context-menu;
+}
+
+#exitGame{
+    display: none;
+}
+
+
+
+.borderF{
+    border-radius: 10%;
+    position: relative;
+    top: 250px;
+    padding: 20px;
+    border: 1 solid #000000;
+    box-shadow: 0 0 500px #ff0000c7; 
+    -moz-box-shadow: 0 0 50px #ff0000c7; 
+    -webkit-box-shadow: 0 0 50px #ff0000c7;
+}
+
+.buttons button{
+    border: 1px solid #ffffff;
+}
+
+.buttons input{
+    border: 1px solid #ffffff;
+}
+
+/* estilo cuando pase el cursor */
+.buttons button:hover{
+    border: 1px solid #ff0000;
+}
+
+.buttons input:hover{
+    border: 1px solid #ff0000;
+}
+
+
+  
+ 
