@@ -1,5 +1,5 @@
 
-alert("atención esta es un portafolio en construcción a si que va a ver bugs y faltas de ortografía Gracias");
+
 
 //  seleccionamos los dos elementos que serán clickables
 
